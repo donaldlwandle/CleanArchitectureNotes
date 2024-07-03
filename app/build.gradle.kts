@@ -1,3 +1,10 @@
+import dependencies.Versions
+import dependencies.Dependencies
+import dependencies.Java
+import dependencies.SupportDependencies
+import  dependencies.Repositories
+import  dependencies.Application
+import  dependencies.AndroidTestDependencies
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
@@ -5,16 +12,16 @@ plugins {
 
 android {
     namespace = "com.example.cleanarchitecturenotes"
-    compileSdk = 34
+    compileSdk = Versions.compilesdk
 
     defaultConfig {
-        applicationId = "com.example.cleanarchitecturenotes"
-        minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        applicationId = Application.id
+        minSdk = Versions.minsdk
+        targetSdk = Versions.targetsdk
+        versionCode = Application.version_code
+        versionName = Application.version_name
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = AndroidTestDependencies.instrumentation_runner
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -30,8 +37,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = Java.java_version
+        targetCompatibility = Java.java_version
     }
     kotlinOptions {
         jvmTarget = "1.8"
