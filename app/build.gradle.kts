@@ -1,13 +1,11 @@
 import dependencies.Versions
-import dependencies.Dependencies
 import dependencies.Java
-import dependencies.SupportDependencies
-import  dependencies.Repositories
 import  dependencies.Application
 import  dependencies.AndroidTestDependencies
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("kotlin-parcelize")
 }
 
 android {
