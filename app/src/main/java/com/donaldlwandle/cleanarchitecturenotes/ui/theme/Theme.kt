@@ -1,6 +1,5 @@
-package com.example.cleanarchitecturenotes.ui.theme
+package com.donaldlwandle.cleanarchitecturenotes.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

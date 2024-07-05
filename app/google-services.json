@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "657901079720",
+    "firebase_url": "https://fuckface-b8e92.firebaseio.com",
+    "project_id": "fuckface-b8e92",
+    "storage_bucket": "fuckface-b8e92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657901079720:android:a939329d2d3db02bf1869d",
+        "android_client_info": {
+          "package_name": "com.donaldlwandle.cleanarchitecturenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657901079720-k3i2t7t46f4n6fjp0j1gjejct8f0gvau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5U1KwIe_QYjFfq4lCqf5gMqwTQ7zXRzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657901079720-fgon1urts9dvs8e4pppnb4ur2diqut1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

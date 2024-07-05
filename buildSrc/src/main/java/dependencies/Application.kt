@@ -1,7 +1,7 @@
 package dependencies
 
 object Application {
-    val id = "com.example.cleanarchitecturenotes"
+    val id = "com.donaldlwandle.cleanarchitecturenotes"
     val version_code = 1
     val version_name = "1.0"
 }

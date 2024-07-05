@@ -1,4 +1,4 @@
-package com.example.cleanarchitecturenotes.ui.theme
+package com.donaldlwandle.cleanarchitecturenotes.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

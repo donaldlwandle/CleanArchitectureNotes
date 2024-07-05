@@ -1,4 +1,4 @@
-package com.example.cleanarchitecturenotes.business.domain.models
+package com.donaldlwandle.cleanarchitecturenotes.business.domain.models
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

@@ -2,14 +2,18 @@ import dependencies.Versions
 import dependencies.Java
 import  dependencies.Application
 import  dependencies.AndroidTestDependencies
+import dependencies.AnnotationProcessing
+import dependencies.Dependencies
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     id("kotlin-parcelize")
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.cleanarchitecturenotes"
+    namespace = "com.donaldlwandle.cleanarchitecturenotes"
     compileSdk = Versions.compilesdk
 
     defaultConfig {
@@ -55,6 +59,20 @@ android {
 }
 
 dependencies {
+
+    //Dependencies
+    implementation(Dependencies.dagger)
+
+    implementation(platform(Dependencies.fireBaseBOM))
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.crashlytics)
+    implementation(libs.firebase.auth)
+
+    //Annotation Processing
+    implementation(AnnotationProcessing.kapt) //Dagger compiler
+
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

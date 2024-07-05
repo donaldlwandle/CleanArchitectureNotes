@@ -1,4 +1,4 @@
-package com.example.cleanarchitecturenotes
+package com.donaldlwandle.cleanarchitecturenotes
 
 import org.junit.Test
 
