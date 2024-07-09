@@ -19,7 +19,7 @@ object Dependencies {
     val play_core = "com.google.android.play:core:${Versions.play_core}"
     val leak_canary = "com.squareup.leakcanary:leakcanary-android:${Versions.leak_canary}"
 
-    val fireBaseBOM = "com.google.firebase:${Versions.fireBaseBOM}"
+    val fireBaseBOM = "com.google.firebase:firebase-bom:${Versions.fireBaseBOM}"
     val firebase_firestore = "com.google.firebase:firebase-firestore-ktx:${Versions.firebase_firestore}"
     val firebase_auth = "com.google.firebase:firebase-auth:${Versions.firebase_auth}"
     val firebase_analytics = "com.google.firebase:firebase-analytics-ktx:${Versions.firebase_analytics}"

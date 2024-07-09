@@ -64,6 +64,7 @@ dependencies {
     implementation(Dependencies.dagger)
 
     implementation(platform(Dependencies.fireBaseBOM))
+
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.firestore)
     implementation(libs.firebase.crashlytics)
